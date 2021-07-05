@@ -1,0 +1,79 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CAE Forms</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+	 <link rel="stylesheet" type="text/css" href="tableStyle.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="shortcut icon" href="../image/logo.png" type="image/x-icon"/>
+</head>
+<body>
+    <div class="container">
+        <h1>CAE Forms</h1>
+        <form action="form-process.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="supervisor">Supervisor</label>
+                <input type="text" name="supervisor" id="supervisor" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="Writing Fellow/Baldwin">Writing Fellow/Baldwin</label>
+                <input type="tel" name="Fellow/Baldwin" id="Fellow/Baldwin" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="studentID">Student ID</label>
+                <input type="text" name="studentID" id="studentID" class="form-control" required>
+            </div>
+			 <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="phone" class="form-control" required>
+            </div>
+			 
+			 <div class="form-group">
+                <label for="GraduationYear">Graduation Year</label>
+                <input type="text" name="GraduationYear" id="GraduationYear" class="form-control" required>
+            </div>
+			<div class="form-group">
+                <label for="Major">Major</label>
+                <input type="text" name="Major" id="Major" class="form-control" required>
+            </div>
+			<div class="form-group">
+                <label for="Minor">Minor</label>
+                <input type="text" name="Minor" id="Minor" class="form-control" required>
+            </div>
+			
+			<div class="form-group">
+                <label for="AttendedOrentation">Attended Orentation Training</label>
+                <input type="text" name="AttendedOrentation" id="AttendedOrentation" class="form-control" required>
+            </div>
+			
+			<div class="form-group">
+                <label for="EnrolledCoaching">Enrolled and Completed ONL Training</label>
+                <input type="text" name="EnrolledCoaching" id="EnrolledCoaching" class="form-control" required>
+            </div>
+			<div class="form-group">
+                <label for="CRLA">CRLA Level</label>
+                <input type="text" name="CRLA" id="CRLA" class="form-control" required>
+            </div>
+			
+					
+			
+            <div class="form-group">
+        <button class="btn btn-success" type="submit">Submit</button>
+        <button class="btn btn-danger" type="reset">Reset</button>
+    </div>
+        </form>
+    </div>
+</body>
+
+</html>
